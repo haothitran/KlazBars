@@ -1,0 +1,10 @@
+## Interface: 80200
+## Title: Klaz|cff1994ffBars|r
+## Author: Klaz
+## Notes: Adjusts the appearance of the default Blizzard action bars.
+
+Core\Config.lua
+
+Modules\HotKeys.lua
+Modules\MacroNames.lua
+Modules\RangeIndicator.lua
