@@ -6,14 +6,14 @@ if C.RangeIndicator ~= true then return end
 -- // MODULES / RANGE INDICATOR
 --------------------------------------------------------------------------------
 
-hooksecurefunc("ActionButton_OnEvent",function(self, event, ...)
-  if event == "PLAYER_TARGET_CHANGED" then
+hooksecurefunc('ActionButton_OnEvent', function(self, event, ...)
+  if event == 'PLAYER_TARGET_CHANGED' then
     self.newTimer = self.rangeTimer
   end
 end)
 
-hooksecurefunc("ActionButton_UpdateUsable",function(self)
-  local icon = _G[self:GetName().."Icon"]
+hooksecurefunc('ActionButton_UpdateUsable', function(self)
+  local icon = _G[self:GetName()..'Icon']
   local valid = IsActionInRange(self.action)
 
   if valid == false then
@@ -21,7 +21,7 @@ hooksecurefunc("ActionButton_UpdateUsable",function(self)
   end
 end)
 
-hooksecurefunc("ActionButton_OnUpdate",function(self, elapsed)
+hooksecurefunc('ActionButton_OnUpdate', function(self, elapsed)
   local rangeTimer = self.newTimer
 
   if rangeTimer then
