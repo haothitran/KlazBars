@@ -3,8 +3,7 @@
 ## Author: Klaz
 ## Notes: Adjusts the appearance of the default Blizzard action bars.
 
-Core\Config.lua
-
-Modules\HotKeys.lua
-Modules\MacroNames.lua
+Modules\HotKeysHide.lua
+Modules\HotKeysText.lua
+Modules\MacroNamesHide.lua
 Modules\RangeIndicator.lua

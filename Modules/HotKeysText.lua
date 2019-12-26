@@ -1,8 +1,5 @@
-local addon, ns = ...
-local C = ns.C
-
 --------------------------------------------------------------------------------
--- // MODULES / HOT KEYS
+-- // MODULES / HOT KEYS TEXT
 --------------------------------------------------------------------------------
 
 hooksecurefunc('ActionButton_OnEvent', function(self, event)
@@ -41,17 +38,3 @@ hooksecurefunc('ActionButton_UpdateHotkeys', function(self)
     hotkey:SetText(text)
   end
 end)
-
---------------------------------------------------------------------------------
--- // HIDE
---------------------------------------------------------------------------------
-
-if C.HotKeys ~= true then
-  for i = 1, 12 do
-    _G['ActionButton'..i..'HotKey']:SetAlpha(0)               -- main bar
-    _G['MultiBarBottomRightButton'..i..'HotKey']:SetAlpha(0)  -- bottom right bar
-    _G['MultiBarBottomLeftButton'..i..'HotKey']:SetAlpha(0)   -- bottom left bar
-    _G['MultiBarRightButton'..i..'HotKey']:SetAlpha(0)        -- right bar
-    _G['MultiBarLeftButton'..i..'HotKey']:SetAlpha(0)         -- left bar
-  end
-end

@@ -2,11 +2,11 @@
 
 A World of Warcraft add-on that adjusts the appearance of the default Blizzard action bars.
 
-There are no in-game options. Settings are hard-coded and can be changed by accessing the file `Core\Config.lua` and editing `true`/`false` values.
+There are no in-game options.
 
 ## Features
 
-- Reduce hotkey text for keybinds with modifiers.
+- Reduce text taken up by hot key keybinds with modifiers.
 - Hide hotkey text on action buttons.
 - Hide macroname text on action buttons.
 - Display range indicator for spells and abilities on action buttons.

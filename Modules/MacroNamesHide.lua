@@ -1,9 +1,5 @@
-local addon, ns = ...
-local C = ns.C
-if C.MacroNames == true then return end
-
 --------------------------------------------------------------------------------
--- // MODULES / MACRO NAMES
+-- // MODULES / MACRO NAMES HIDE
 --------------------------------------------------------------------------------
 
 for i = 1, 12 do
