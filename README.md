@@ -6,7 +6,6 @@ There are no in-game options.
 
 ## Features
 
-- Reduce text taken up by hot key keybinds with modifiers.
 - Hide hotkey text on action buttons.
 - Hide macroname text on action buttons.
 - Display range indicator for spells and abilities on action buttons.
