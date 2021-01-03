@@ -1,4 +1,4 @@
-# KlazBot
+# KlazBars
 
 A World of Warcraft add-on that adjusts the appearance of the default Blizzard action bars.
 
